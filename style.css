@@ -1,0 +1,16 @@
+p {
+  text-decoration-color: grey;
+}
+
+#mainTitle {
+  height: 100px;
+  width: 300px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+
+  letter-spacing: 3px;
+  font-weight: bolder;
+  font-size: larger;
+}
