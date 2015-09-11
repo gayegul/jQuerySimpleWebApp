@@ -10,3 +10,28 @@
   font-weight: bolder;
   font-size: larger;
 }
+
+#photoHolder {
+  height: 250px;
+  width: 750px;
+  border-style: ridge;
+  margin: auto;
+}
+
+.photos {
+  /* height: 150px;
+  width: 150px;
+  border-style: ridge;
+  float: left;
+  display: inline; */
+}
+
+#photoOne, #photoTwo, #photoThree {
+  float: left;
+  height: 150px;
+  width: 150px;
+  border-style: ridge;
+  list-style-type: none;
+  margin-right: 80px;
+  margin-top: 20px;
+}
