@@ -12,18 +12,16 @@
 }
 
 #photoHolder {
-  height: 250px;
-  width: 750px;
+  height: 450px;
+  width: 800px;
   border-style: ridge;
   margin: auto;
+  text-align: center;
 }
 
-.photos {
-  /* height: 150px;
-  width: 150px;
-  border-style: ridge;
-  float: left;
-  display: inline; */
+#instruction {
+  text-align: center;
+  font-family: fantasy;
 }
 
 #photoOne, #photoTwo, #photoThree {
@@ -32,6 +30,26 @@
   width: 150px;
   border-style: ridge;
   list-style-type: none;
-  margin-right: 80px;
+  margin-right: 40px;
+  margin-left: 40px;
   margin-top: 20px;
+}
+
+#photoOne {
+  content: url('./pics/IMG_2528.jpg');
+}
+
+#photoTwo {
+  content: url('./pics/IMG_2572.jpg');
+}
+
+#photoThree {
+  content: url('./pics/IMG_3226.jpg');
+}
+
+button {
+  padding-top: 10px;
+  margin-top: 40px;
+  font-family: fantasy;
+  font-size: 15px;
 }
