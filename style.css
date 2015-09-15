@@ -20,7 +20,9 @@
 }
 
 #instruction {
+  padding-top: 20px;
   text-align: center;
+  font-size: 20px;
   font-family: fantasy;
 }
 
@@ -32,6 +34,7 @@
 #photoOne, #photoTwo, #photoThree {
   height: 150px;
   width: 150px;
+    border: none;
   border-style: ridge;
   margin-right: 40px;
   margin-left: 40px;
@@ -50,9 +53,10 @@
   content: url('./pics/IMG_3226.jpg');
 }
 
-#result {
+#finalResult {
   padding-top: 10px;
   margin-top: 40px;
+  margin-left: 310px;
   font-family: fantasy;
-  font-size: 15px;
+  float: left;
 }
