@@ -1,3 +1,3 @@
 # jQuerySimpleWebApp
 
-A simple web app using jQuery
+A simple web makeup quiz using jQuery

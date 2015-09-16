@@ -5,7 +5,6 @@
   text-align: center;
   padding: 50px;
   margin: auto;
-
   letter-spacing: 3px;
   font-weight: bolder;
   font-size: larger;
@@ -34,23 +33,10 @@
 #photoOne, #photoTwo, #photoThree {
   height: 150px;
   width: 150px;
-    border: none;
-  border-style: ridge;
+  border: 1px solid gray;
   margin-right: 40px;
   margin-left: 40px;
   margin-top: 20px;
-}
-
-#photoOne {
-  content: url('./pics/IMG_2528.jpg');
-}
-
-#photoTwo {
-  content: url('./pics/IMG_2572.jpg');
-}
-
-#photoThree {
-  content: url('./pics/IMG_3226.jpg');
 }
 
 #finalResult {
